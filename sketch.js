@@ -91,7 +91,7 @@ function setup() {
   translate(width / 2, height / 2);
   stroke(127);
 
-  frameRate(2);
+  frameRate(3);
 }
 
 function draw() {
@@ -221,4 +221,15 @@ function allLines() {
     line(x1, y1, x2, y2);
   }
   pop();
+}
+
+function keyPressed() {
+  // this will download the first 25 seconds of the animation!
+  if (key === 'g') {
+    saveGif('heavenEarth.gif', 20,{delay:20,units:'seconds'} );
+  }
+  if (key === 's') {
+    saveCanvas('notagrid', 'jpg');
+  }
+  
 }
