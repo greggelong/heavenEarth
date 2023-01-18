@@ -8,6 +8,10 @@ The sixty year cycle is made of the Ten heavenly stems and Twelve earthly branch
 
 You can create the calendar by matching the two up modulo their lengths over 60 years
 
+
+this calendar is not a cartesian product of all pairs. but half that. because of the five elements that have yin and yang 
+
+There will never be for example a gui (yin water) zi (rat)
 heaven_stem_ch=['甲','乙','丙','丁','戊','己','庚','辛','壬','癸'] 
 heaven_stem_pin=['jiǎ','yǐ','bǐng','dīng','wù','jǐ','gēng','xīn','rén','guǐ']
 earth_branch_ch=['子','丑','寅','卯','辰','巳','午','未','申','酉','戌','亥']
