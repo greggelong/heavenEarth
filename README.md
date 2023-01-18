@@ -11,6 +11,15 @@ You can create the calendar by matching the two up modulo their lengths over 60 
 
 this calendar is not a cartesian product of all pairs. but half that. because of the five elements that have yin and yang 
 
+
+you can see this clearly in the python script I have included
+
+
+    '''you can see here that the combination of the lists is not a cartesian product
+    which would = 120 the combination of each element of the list without repeat.
+    but is just half that as there is no yin water rat, or yin water monkey, they are only yang '''
+    
+
 There will never be for example a gui (yin water) zi (rat)
 heaven_stem_ch=['甲','乙','丙','丁','戊','己','庚','辛','壬','癸'] 
 heaven_stem_pin=['jiǎ','yǐ','bǐng','dīng','wù','jǐ','gēng','xīn','rén','guǐ']
